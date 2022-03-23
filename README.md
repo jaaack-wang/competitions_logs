@@ -1,2 +1,1 @@
-# competitions_logs
-Competition records of mine, mostly related to NLP.
+This repository records online competitions that I participated and the code I used. These competitions can be in Chinese or in English, so are my records. 
