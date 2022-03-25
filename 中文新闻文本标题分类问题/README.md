@@ -9,7 +9,8 @@
 - `bert-wwm-chinese-20220323`同上，但训练了5个epchos。（另外，我也调高了batch size）。最后测试集准确度：86.2%。看来是在训练集上过拟合了。
 - `roberta-wwm-ext-20220323-1-epoch`只训练了1个epoch。结果：85.7%。
 - `erniegram-20220323-3-epochs`训练了3个epoch，batch size调到128。最后测试集准确度：85.8%。
-
+- `bert-wwm-chinese-20220324`不区分训练集和验证集，直接全拿来训练。最后测试集准确度：88.3%。
+- `bert-wwm-chinese-20220324-10-epochs-64-batchsize`: 同上，训练了10个epoches + 64的batch size。结果：87.7%。64 batch size很慢很慢，慎用。
 
 
 ## 赛题介绍
